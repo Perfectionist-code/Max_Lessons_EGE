@@ -17,7 +17,7 @@ from random import random
 #         else:
 #             clustersB[2].append((x, y))
 # print(*(sm:=tuple(len(kl) for kl in clustersB)),'|' ,sum(sm), '|',cnt )
-from locale import windows_locale
+
 
 clusters = []
 with open('03_27_A.txt') as file:
